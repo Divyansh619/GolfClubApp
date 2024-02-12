@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Golf Club",
+    "slug": "lgcapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo-1.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/720X1280.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "assets/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.applgc"
+    },
+    "android": {
+      "versionCode": 4,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo-1.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.applgc"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "enabled": true,
+      "url": "https://u.expo.dev/2c646010-69e2-4b00-84d7-541f2d2c357b"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "76212596-2f4f-4867-bfa0-bf782ec9795a"
+      }
+    }
+  }
+}
